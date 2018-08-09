@@ -26,6 +26,7 @@ public class CustomerManagementController {
 	@GetMapping("/customers")
 	public List<Customer> getAllCustomer(){
 		return customerServiceImplementation.getAllCustomers();
+		
 	}
 	
 	@GetMapping("/customer/{id}")
