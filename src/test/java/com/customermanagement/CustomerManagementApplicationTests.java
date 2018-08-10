@@ -11,6 +11,7 @@ public class CustomerManagementApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		
 	}
 
 }
